@@ -1,0 +1,6 @@
+# Ignorar qualquer arquivo que não tenha ponto no nome (sem extensão)
+[^.]*
+.DS_Store
+# Mas manter pastas (senão ele ignora diretórios também)
+!*/
+!*/*.c
